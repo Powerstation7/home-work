@@ -14,37 +14,46 @@
    <hr>
    <h3>Your Details</h3>
    <br>
-   <label for="">first name</label>
+   <form action="" method="post">
+   <br>
+   <label for="">first name:</label>
    <input type="text" >
   <br>
-  <label for="">surname</label>
+  <label for="">surname:</label>
   <input type="text">
   <br>
-  <label for="">username</label>
+  <label for="">username:</label>
   <input type="text" name="username" placeholder="username">
   <br>
-  <label for="">email</label>
-  <input type="email" placeholder="email" required>
+  <label for="email">email:</label>
+  <input type="email" placeholder="email" id="email" required>
   <br>
-  <label for="">password</label>
-  <input type="password" placeholder="password" required>
-  <hr>
+  <label for="password">password:</label>
+  <input type="password" placeholder="password" id="password" required>
+  <br>
+  <br>
 
-  <h3>Gender</h3>
+  <b>Gender</b>
+
   <br>
   <label for="">male</label>
   <input type="radio" name="gender" id="male">
   <label for="">female</label>
   <input type="radio" name="gender" id="female">
   <br>
+  <br>
   <label for="">D.O.B</label>
+  <br>
   <input type="date" name="" id="">
+  <br>
   <br>
   <label for="">upload your CV</label>
   <input type="file">
   <br>
+  <br>
 
-  <h3>favorite color</h3>
+  <b>favorite color</b>
+  <br>
   <label for="">Red</label>
   <input type="checkbox" id="Red">
   <label for="">Blue</label>
@@ -54,9 +63,11 @@
   <label for="">white</label>
   <input type="checkbox" id="white">
   <br>
-
-  <h3>favorite meal</h3>
   <br>
+
+  <b>favorite meal</b>
+  <br>
+
   <label for="">rice</label>
   <input type="checkbox" name="" id="rice">
   <label for="">spaghetti</label>
@@ -65,6 +76,7 @@
   <input type="checkbox" name="" id="garri">
   <label for="beans"></label>
   <input type="checkbox" name="" id="beans">
+  <br>
   <br>
 
   <label for="">nationality</label>
@@ -93,6 +105,7 @@
 </optgroup>
 </select>
 <br>
+<br>
 
 <label for="browserbox">your fovorite browser</label>
 <input list="browsers"  id="browserbox">
@@ -103,15 +116,17 @@
         <option value="operamini">
     </datalist>
     <br>
-    <textarea cos="17" row="19" placeholder= write a message></textarea>
+    <label >message</label>
     <br>
-    <input type="submit" value="submit">
+    <textarea cols="30" rows="10" placeholder="write your message"></textarea>
     <br>
+  <input type="submit" value="sign in">
+    <br>
+</form>
     <hr>
-    
     <iframe width="300" height="180" src="https://www.youtube.com/embed/lG5fBDsSixM" title="Moments that Can't be Repeated in Football" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <br>
-    &copy; <label>copyright2022</label>
+<br>
+&copy; <label for="">copyright 2022</label>
 
 
 
