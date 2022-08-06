@@ -7,4 +7,10 @@ ul{color: white;}
 h1{color: yellow;}
 span{color: white;}
 hr{color: white;}
-a {color: #F15412; background-color: #990000;}
+a {color: black; background-color: yellow;}
+p{color: purple; background-color: white; width: fit-content;}
+h3{color: #F5E8C7;}
+form{color: yellow;}
+:placeholder-shown{color: purple;}
+input{color: #F15412;}
+
